@@ -1,0 +1,32 @@
+#intro-container{
+	position: absolute;
+	overflow:hidden;
+	width:1024px;
+	height:768px;
+	left: 0px;
+	top: 0px;
+}
+
+.intro-bg{
+	background-image:url("introBG_iPad.png");
+	position: absolute;
+	width:1024px;
+	height:768px;
+	left:0px;
+	top:0px;
+}
+
+.intro-spin{
+	background-image:url("spin_iPad.png");
+	position: absolute;
+    width:247px;
+    height:140px;
+    left:777px;
+    top:628px;
+    -webkit-animation: blinkspin .3s ease infinite alternate;
+}
+
+@-webkit-keyframes blinkspin {
+	from{-webkit-filter:brightness(50%);}
+	to{-webkit-filter:brightness(120%);}
+}

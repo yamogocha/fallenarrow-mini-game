@@ -1,0 +1,33 @@
+#intro-container{
+	position: absolute;
+	overflow:hidden;
+	width:568px;
+	height:320px;
+	left: 0px;
+	top: 0px;
+}
+
+.intro-bg{
+	background-image:url("introBG_iPhone.png");
+	position: absolute;
+	width:568px;
+	height:320px;
+	left:0px;
+	top:0px;
+}
+
+.intro-spin{
+	background-image:url("spin_iPhone.png");
+	position: absolute;
+    width:105px;
+    height:62px;
+    left: 463px;
+    top: 258px;
+    -webkit-animation: blinkspin .3s ease infinite alternate;
+}
+
+
+@-webkit-keyframes blinkspin {
+	from{-webkit-filter:brightness(50%);}
+	to{-webkit-filter:brightness(120%);}
+}
